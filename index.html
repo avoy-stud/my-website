@@ -1,10 +1,35 @@
 <!DOCTYPE html>
-<html>
+<html lang="bn">
 <head>
-  <title>My Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Study Website</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Hello Avoy</h1>
-  <p>My first website is live.</p>
+
+
+<header>
+<h1>📘 The student point</h1>
+<input id="search" type="text" placeholder="খুঁজুন...">
+</header>
+<nav>
+<button onclick="load('cv')">CV</button>
+<button onclick="load('paragraph')">Paragraph</button>
+<button onclick="load('dialogue')">Dialogue</button>
+<button onclick="load('email')">Email</button>
+</nav>
+
+
+<main id="content"></main>
+
+
+<footer>
+<p>© 2025 Study Website</p>
+</footer>
+
+
+<script src="data.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
